@@ -38,34 +38,40 @@ namespace MehndiAppDotNerCoreWebAPI.Helpers
             }
         }
 
-        public int ExecuteNonQuery(string query, SqlParameter[] parameters = null)
+        public async Task< int> ExecuteNonQuery(string query, SqlParameter[] parameters = null)
         {
             using (var connection = GetConnection())
             {
                 using (var command = new SqlCommand(query, connection))
                 {
+                    command.CommandType = CommandType.StoredProcedure;
                     if (parameters != null)
                         command.Parameters.AddRange(parameters);
 
                     connection.Open();
-                    return command.ExecuteNonQuery();
+                    return await command.ExecuteNonQueryAsync();
                 }
             }
         }
-
-        public object ExecuteScalar(string query, SqlParameter[] parameters = null)
+        public async Task<object> ExecuteScalarAsync(string query, SqlParameter[] parameters = null)
         {
             using (var connection = GetConnection())
             {
                 using (var command = new SqlCommand(query, connection))
                 {
-                    if (parameters != null)
-                        command.Parameters.AddRange(parameters);
+                    command.CommandType = CommandType.StoredProcedure;
 
-                    connection.Open();
-                    return command.ExecuteScalar();
+                    if (parameters != null)
+                    {
+                        command.Parameters.AddRange(parameters);
+                    }
+
+                    await connection.OpenAsync();
+                    var result = await command.ExecuteScalarAsync();
+                    return result ?? throw new InvalidOperationException("ExecuteScalarAsync returned null.");
                 }
             }
         }
+
     }
 }

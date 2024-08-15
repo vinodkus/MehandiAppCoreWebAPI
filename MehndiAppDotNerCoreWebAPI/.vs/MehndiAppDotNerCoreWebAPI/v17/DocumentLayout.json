@@ -3,52 +3,104 @@
   "WorkspaceRootPath": "C:\\Vinod\\VS Test Project\\V-18\\Mehndi App\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E507ADBC-AFB4-4D8E-9243-472C2169E261}|MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI.csproj|c:\\vinod\\vs test project\\v-18\\mehndi app\\mehndiappdotnercorewebapi\\mehndiappdotnercorewebapi\\mehndiappdotnercorewebapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E507ADBC-AFB4-4D8E-9243-472C2169E261}|MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI.csproj|solutionrelative:mehndiappdotnercorewebapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E507ADBC-AFB4-4D8E-9243-472C2169E261}|MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI.csproj|c:\\vinod\\vs test project\\v-18\\mehndi app\\mehndiappdotnercorewebapi\\mehndiappdotnercorewebapi\\mehndiappdotnercorewebapi\\controllers\\professionalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E507ADBC-AFB4-4D8E-9243-472C2169E261}|MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI.csproj|solutionrelative:mehndiappdotnercorewebapi\\controllers\\professionalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E507ADBC-AFB4-4D8E-9243-472C2169E261}|MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI.csproj|c:\\vinod\\vs test project\\v-18\\mehndi app\\mehndiappdotnercorewebapi\\mehndiappdotnercorewebapi\\mehndiappdotnercorewebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E507ADBC-AFB4-4D8E-9243-472C2169E261}|MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI.csproj|solutionrelative:mehndiappdotnercorewebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E507ADBC-AFB4-4D8E-9243-472C2169E261}|MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI.csproj|c:\\vinod\\vs test project\\v-18\\mehndi app\\mehndiappdotnercorewebapi\\mehndiappdotnercorewebapi\\mehndiappdotnercorewebapi\\repositories\\implementations\\professionalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E507ADBC-AFB4-4D8E-9243-472C2169E261}|MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI.csproj|solutionrelative:mehndiappdotnercorewebapi\\repositories\\implementations\\professionalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E507ADBC-AFB4-4D8E-9243-472C2169E261}|MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI.csproj|c:\\vinod\\vs test project\\v-18\\mehndi app\\mehndiappdotnercorewebapi\\mehndiappdotnercorewebapi\\mehndiappdotnercorewebapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E507ADBC-AFB4-4D8E-9243-472C2169E261}|MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI.csproj|solutionrelative:mehndiappdotnercorewebapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E507ADBC-AFB4-4D8E-9243-472C2169E261}|MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI.csproj|c:\\vinod\\vs test project\\v-18\\mehndi app\\mehndiappdotnercorewebapi\\mehndiappdotnercorewebapi\\mehndiappdotnercorewebapi\\services\\implementations\\professionalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E507ADBC-AFB4-4D8E-9243-472C2169E261}|MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI.csproj|solutionrelative:mehndiappdotnercorewebapi\\services\\implementations\\professionalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E507ADBC-AFB4-4D8E-9243-472C2169E261}|MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI.csproj|c:\\vinod\\vs test project\\v-18\\mehndi app\\mehndiappdotnercorewebapi\\mehndiappdotnercorewebapi\\mehndiappdotnercorewebapi\\services\\implementations\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E507ADBC-AFB4-4D8E-9243-472C2169E261}|MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI.csproj|solutionrelative:mehndiappdotnercorewebapi\\services\\implementations\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E507ADBC-AFB4-4D8E-9243-472C2169E261}|MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI.csproj|c:\\vinod\\vs test project\\v-18\\mehndi app\\mehndiappdotnercorewebapi\\mehndiappdotnercorewebapi\\mehndiappdotnercorewebapi\\helpers\\sqlhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E507ADBC-AFB4-4D8E-9243-472C2169E261}|MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI.csproj|solutionrelative:mehndiappdotnercorewebapi\\helpers\\sqlhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E507ADBC-AFB4-4D8E-9243-472C2169E261}|MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI.csproj|c:\\vinod\\vs test project\\v-18\\mehndi app\\mehndiappdotnercorewebapi\\mehndiappdotnercorewebapi\\mehndiappdotnercorewebapi\\repositories\\implementations\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E507ADBC-AFB4-4D8E-9243-472C2169E261}|MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI.csproj|solutionrelative:mehndiappdotnercorewebapi\\repositories\\implementations\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E507ADBC-AFB4-4D8E-9243-472C2169E261}|MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI.csproj|c:\\vinod\\vs test project\\v-18\\mehndi app\\mehndiappdotnercorewebapi\\mehndiappdotnercorewebapi\\mehndiappdotnercorewebapi\\data\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E507ADBC-AFB4-4D8E-9243-472C2169E261}|MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI.csproj|solutionrelative:mehndiappdotnercorewebapi\\data\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E507ADBC-AFB4-4D8E-9243-472C2169E261}|MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI.csproj|c:\\vinod\\vs test project\\v-18\\mehndi app\\mehndiappdotnercorewebapi\\mehndiappdotnercorewebapi\\mehndiappdotnercorewebapi\\models\\professionalloginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E507ADBC-AFB4-4D8E-9243-472C2169E261}|MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI.csproj|solutionrelative:mehndiappdotnercorewebapi\\models\\professionalloginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E507ADBC-AFB4-4D8E-9243-472C2169E261}|MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI.csproj|c:\\vinod\\vs test project\\v-18\\mehndi app\\mehndiappdotnercorewebapi\\mehndiappdotnercorewebapi\\mehndiappdotnercorewebapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{E507ADBC-AFB4-4D8E-9243-472C2169E261}|MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI.csproj|solutionrelative:mehndiappdotnercorewebapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E507ADBC-AFB4-4D8E-9243-472C2169E261}|MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI.csproj|c:\\vinod\\vs test project\\v-18\\mehndi app\\mehndiappdotnercorewebapi\\mehndiappdotnercorewebapi\\mehndiappdotnercorewebapi\\services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E507ADBC-AFB4-4D8E-9243-472C2169E261}|MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI.csproj|solutionrelative:mehndiappdotnercorewebapi\\services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E507ADBC-AFB4-4D8E-9243-472C2169E261}|MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI.csproj|c:\\vinod\\vs test project\\v-18\\mehndi app\\mehndiappdotnercorewebapi\\mehndiappdotnercorewebapi\\mehndiappdotnercorewebapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E507ADBC-AFB4-4D8E-9243-472C2169E261}|MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI.csproj|solutionrelative:mehndiappdotnercorewebapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E507ADBC-AFB4-4D8E-9243-472C2169E261}|MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI.csproj|c:\\vinod\\vs test project\\v-18\\mehndi app\\mehndiappdotnercorewebapi\\mehndiappdotnercorewebapi\\mehndiappdotnercorewebapi\\repositories\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E507ADBC-AFB4-4D8E-9243-472C2169E261}|MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI.csproj|solutionrelative:mehndiappdotnercorewebapi\\repositories\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E507ADBC-AFB4-4D8E-9243-472C2169E261}|MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI.csproj|c:\\vinod\\vs test project\\v-18\\mehndi app\\mehndiappdotnercorewebapi\\mehndiappdotnercorewebapi\\mehndiappdotnercorewebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E507ADBC-AFB4-4D8E-9243-472C2169E261}|MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI.csproj|solutionrelative:mehndiappdotnercorewebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E507ADBC-AFB4-4D8E-9243-472C2169E261}|MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI.csproj|c:\\vinod\\vs test project\\v-18\\mehndi app\\mehndiappdotnercorewebapi\\mehndiappdotnercorewebapi\\mehndiappdotnercorewebapi\\services\\interfaces\\iprofessionalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E507ADBC-AFB4-4D8E-9243-472C2169E261}|MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI.csproj|solutionrelative:mehndiappdotnercorewebapi\\services\\interfaces\\iprofessionalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E507ADBC-AFB4-4D8E-9243-472C2169E261}|MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI.csproj|c:\\vinod\\vs test project\\v-18\\mehndi app\\mehndiappdotnercorewebapi\\mehndiappdotnercorewebapi\\mehndiappdotnercorewebapi\\repositories\\interfaces\\iprofessionalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E507ADBC-AFB4-4D8E-9243-472C2169E261}|MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI.csproj|solutionrelative:mehndiappdotnercorewebapi\\repositories\\interfaces\\iprofessionalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E507ADBC-AFB4-4D8E-9243-472C2169E261}|MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI.csproj|c:\\vinod\\vs test project\\v-18\\mehndi app\\mehndiappdotnercorewebapi\\mehndiappdotnercorewebapi\\mehndiappdotnercorewebapi\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E507ADBC-AFB4-4D8E-9243-472C2169E261}|MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI.csproj|solutionrelative:mehndiappdotnercorewebapi\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E507ADBC-AFB4-4D8E-9243-472C2169E261}|MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI.csproj|c:\\vinod\\vs test project\\v-18\\mehndi app\\mehndiappdotnercorewebapi\\mehndiappdotnercorewebapi\\mehndiappdotnercorewebapi\\models\\professional.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E507ADBC-AFB4-4D8E-9243-472C2169E261}|MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI.csproj|solutionrelative:mehndiappdotnercorewebapi\\models\\professional.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E507ADBC-AFB4-4D8E-9243-472C2169E261}|MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI.csproj|c:\\vinod\\vs test project\\v-18\\mehndi app\\mehndiappdotnercorewebapi\\mehndiappdotnercorewebapi\\mehndiappdotnercorewebapi\\repositories\\implementations\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E507ADBC-AFB4-4D8E-9243-472C2169E261}|MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI.csproj|solutionrelative:mehndiappdotnercorewebapi\\repositories\\implementations\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E507ADBC-AFB4-4D8E-9243-472C2169E261}|MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI.csproj|c:\\vinod\\vs test project\\v-18\\mehndi app\\mehndiappdotnercorewebapi\\mehndiappdotnercorewebapi\\mehndiappdotnercorewebapi\\services\\implementations\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E507ADBC-AFB4-4D8E-9243-472C2169E261}|MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI.csproj|solutionrelative:mehndiappdotnercorewebapi\\services\\implementations\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E507ADBC-AFB4-4D8E-9243-472C2169E261}|MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI.csproj|c:\\vinod\\vs test project\\v-18\\mehndi app\\mehndiappdotnercorewebapi\\mehndiappdotnercorewebapi\\mehndiappdotnercorewebapi\\repositories\\interfaces\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E507ADBC-AFB4-4D8E-9243-472C2169E261}|MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI.csproj|solutionrelative:mehndiappdotnercorewebapi\\repositories\\interfaces\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E507ADBC-AFB4-4D8E-9243-472C2169E261}|MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI.csproj|c:\\vinod\\vs test project\\v-18\\mehndi app\\mehndiappdotnercorewebapi\\mehndiappdotnercorewebapi\\mehndiappdotnercorewebapi\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E507ADBC-AFB4-4D8E-9243-472C2169E261}|MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI.csproj|solutionrelative:mehndiappdotnercorewebapi\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E507ADBC-AFB4-4D8E-9243-472C2169E261}|MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI.csproj|c:\\vinod\\vs test project\\v-18\\mehndi app\\mehndiappdotnercorewebapi\\mehndiappdotnercorewebapi\\mehndiappdotnercorewebapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E507ADBC-AFB4-4D8E-9243-472C2169E261}|MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI.csproj|solutionrelative:mehndiappdotnercorewebapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E507ADBC-AFB4-4D8E-9243-472C2169E261}|MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI.csproj|c:\\vinod\\vs test project\\v-18\\mehndi app\\mehndiappdotnercorewebapi\\mehndiappdotnercorewebapi\\mehndiappdotnercorewebapi\\mehndiappdotnercorewebapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{E507ADBC-AFB4-4D8E-9243-472C2169E261}|MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI.csproj|solutionrelative:mehndiappdotnercorewebapi\\mehndiappdotnercorewebapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{E507ADBC-AFB4-4D8E-9243-472C2169E261}|MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI.csproj|c:\\vinod\\vs test project\\v-18\\mehndi app\\mehndiappdotnercorewebapi\\mehndiappdotnercorewebapi\\mehndiappdotnercorewebapi\\services\\implementations\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E507ADBC-AFB4-4D8E-9243-472C2169E261}|MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI.csproj|solutionrelative:mehndiappdotnercorewebapi\\services\\implementations\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E507ADBC-AFB4-4D8E-9243-472C2169E261}|MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI.csproj|c:\\vinod\\vs test project\\v-18\\mehndi app\\mehndiappdotnercorewebapi\\mehndiappdotnercorewebapi\\mehndiappdotnercorewebapi\\helpers\\sqlhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E507ADBC-AFB4-4D8E-9243-472C2169E261}|MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI.csproj|solutionrelative:mehndiappdotnercorewebapi\\helpers\\sqlhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E507ADBC-AFB4-4D8E-9243-472C2169E261}|MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI.csproj|c:\\vinod\\vs test project\\v-18\\mehndi app\\mehndiappdotnercorewebapi\\mehndiappdotnercorewebapi\\mehndiappdotnercorewebapi\\services\\interfaces\\icustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E507ADBC-AFB4-4D8E-9243-472C2169E261}|MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI.csproj|solutionrelative:mehndiappdotnercorewebapi\\services\\interfaces\\icustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E507ADBC-AFB4-4D8E-9243-472C2169E261}|MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI.csproj|c:\\vinod\\vs test project\\v-18\\mehndi app\\mehndiappdotnercorewebapi\\mehndiappdotnercorewebapi\\mehndiappdotnercorewebapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E507ADBC-AFB4-4D8E-9243-472C2169E261}|MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI.csproj|solutionrelative:mehndiappdotnercorewebapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E507ADBC-AFB4-4D8E-9243-472C2169E261}|MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI.csproj|c:\\vinod\\vs test project\\v-18\\mehndi app\\mehndiappdotnercorewebapi\\mehndiappdotnercorewebapi\\mehndiappdotnercorewebapi\\services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E507ADBC-AFB4-4D8E-9243-472C2169E261}|MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI.csproj|solutionrelative:mehndiappdotnercorewebapi\\services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E507ADBC-AFB4-4D8E-9243-472C2169E261}|MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI.csproj|c:\\vinod\\vs test project\\v-18\\mehndi app\\mehndiappdotnercorewebapi\\mehndiappdotnercorewebapi\\mehndiappdotnercorewebapi\\repositories\\implementations\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E507ADBC-AFB4-4D8E-9243-472C2169E261}|MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI.csproj|solutionrelative:mehndiappdotnercorewebapi\\repositories\\implementations\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E507ADBC-AFB4-4D8E-9243-472C2169E261}|MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI.csproj|c:\\vinod\\vs test project\\v-18\\mehndi app\\mehndiappdotnercorewebapi\\mehndiappdotnercorewebapi\\mehndiappdotnercorewebapi\\repositories\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E507ADBC-AFB4-4D8E-9243-472C2169E261}|MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI.csproj|solutionrelative:mehndiappdotnercorewebapi\\repositories\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E507ADBC-AFB4-4D8E-9243-472C2169E261}|MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI.csproj|c:\\vinod\\vs test project\\v-18\\mehndi app\\mehndiappdotnercorewebapi\\mehndiappdotnercorewebapi\\mehndiappdotnercorewebapi\\data\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E507ADBC-AFB4-4D8E-9243-472C2169E261}|MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI.csproj|solutionrelative:mehndiappdotnercorewebapi\\data\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E507ADBC-AFB4-4D8E-9243-472C2169E261}|MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI.csproj|c:\\vinod\\vs test project\\v-18\\mehndi app\\mehndiappdotnercorewebapi\\mehndiappdotnercorewebapi\\mehndiappdotnercorewebapi\\mehndiappdotnercorewebapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E507ADBC-AFB4-4D8E-9243-472C2169E261}|MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI.csproj|solutionrelative:mehndiappdotnercorewebapi\\mehndiappdotnercorewebapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,59 +114,32 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
+              "Title": "ProfessionalRepository.cs",
+              "DocumentMoniker": "C:\\Vinod\\VS Test Project\\V-18\\Mehndi App\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\Repositories\\Implementations\\ProfessionalRepository.cs",
+              "RelativeDocumentMoniker": "MehndiAppDotNerCoreWebAPI\\Repositories\\Implementations\\ProfessionalRepository.cs",
+              "ToolTip": "C:\\Vinod\\VS Test Project\\V-18\\Mehndi App\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\Repositories\\Implementations\\ProfessionalRepository.cs",
+              "RelativeToolTip": "MehndiAppDotNerCoreWebAPI\\Repositories\\Implementations\\ProfessionalRepository.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAADwvz0AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T07:08:29.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Vinod\\VS Test Project\\V-18\\Mehndi App\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\appsettings.json",
               "RelativeDocumentMoniker": "MehndiAppDotNerCoreWebAPI\\appsettings.json",
               "ToolTip": "C:\\Vinod\\VS Test Project\\V-18\\Mehndi App\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\appsettings.json",
               "RelativeToolTip": "MehndiAppDotNerCoreWebAPI\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-27T12:35:23.318Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-27T12:35:23.318Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Vinod\\VS Test Project\\V-18\\Mehndi App\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\Services\\Implementations\\UserService.cs",
-              "RelativeDocumentMoniker": "MehndiAppDotNerCoreWebAPI\\Services\\Implementations\\UserService.cs",
-              "ToolTip": "C:\\Vinod\\VS Test Project\\V-18\\Mehndi App\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\Services\\Implementations\\UserService.cs",
-              "RelativeToolTip": "MehndiAppDotNerCoreWebAPI\\Services\\Implementations\\UserService.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAkwBsAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T12:34:39.051Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "C:\\Vinod\\VS Test Project\\V-18\\Mehndi App\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\Services\\Interfaces\\IUserService.cs",
-              "RelativeDocumentMoniker": "MehndiAppDotNerCoreWebAPI\\Services\\Interfaces\\IUserService.cs",
-              "ToolTip": "C:\\Vinod\\VS Test Project\\V-18\\Mehndi App\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\Services\\Interfaces\\IUserService.cs",
-              "RelativeToolTip": "MehndiAppDotNerCoreWebAPI\\Services\\Interfaces\\IUserService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T12:34:17.36Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Vinod\\VS Test Project\\V-18\\Mehndi App\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "MehndiAppDotNerCoreWebAPI\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Vinod\\VS Test Project\\V-18\\Mehndi App\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\Controllers\\UserController.cs",
-              "RelativeToolTip": "MehndiAppDotNerCoreWebAPI\\Controllers\\UserController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T12:32:07.644Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "C:\\Vinod\\VS Test Project\\V-18\\Mehndi App\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "MehndiAppDotNerCoreWebAPI\\Controllers\\WeatherForecastController.cs",
@@ -127,59 +152,157 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Vinod\\VS Test Project\\V-18\\Mehndi App\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\Repositories\\Implementations\\UserRepository.cs",
-              "RelativeDocumentMoniker": "MehndiAppDotNerCoreWebAPI\\Repositories\\Implementations\\UserRepository.cs",
-              "ToolTip": "C:\\Vinod\\VS Test Project\\V-18\\Mehndi App\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\Repositories\\Implementations\\UserRepository.cs",
-              "RelativeToolTip": "MehndiAppDotNerCoreWebAPI\\Repositories\\Implementations\\UserRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBIAAAAxAAAA",
+              "DocumentIndex": 0,
+              "Title": "ProfessionalController.cs",
+              "DocumentMoniker": "C:\\Vinod\\VS Test Project\\V-18\\Mehndi App\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\Controllers\\ProfessionalController.cs",
+              "RelativeDocumentMoniker": "MehndiAppDotNerCoreWebAPI\\Controllers\\ProfessionalController.cs",
+              "ToolTip": "C:\\Vinod\\VS Test Project\\V-18\\Mehndi App\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\Controllers\\ProfessionalController.cs",
+              "RelativeToolTip": "MehndiAppDotNerCoreWebAPI\\Controllers\\ProfessionalController.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAwwDYAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T12:30:12.546Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Vinod\\VS Test Project\\V-18\\Mehndi App\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\Program.cs",
-              "RelativeDocumentMoniker": "MehndiAppDotNerCoreWebAPI\\Program.cs",
-              "ToolTip": "C:\\Vinod\\VS Test Project\\V-18\\Mehndi App\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\Program.cs",
-              "RelativeToolTip": "MehndiAppDotNerCoreWebAPI\\Program.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAAABUAAAA3AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T12:17:58.254Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MyDbContext.cs",
-              "DocumentMoniker": "C:\\Vinod\\VS Test Project\\V-18\\Mehndi App\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\Data\\MyDbContext.cs",
-              "RelativeDocumentMoniker": "MehndiAppDotNerCoreWebAPI\\Data\\MyDbContext.cs",
-              "ToolTip": "C:\\Vinod\\VS Test Project\\V-18\\Mehndi App\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\Data\\MyDbContext.cs",
-              "RelativeToolTip": "MehndiAppDotNerCoreWebAPI\\Data\\MyDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T12:40:27.138Z",
+              "WhenOpened": "2024-08-11T07:04:47.605Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "C:\\Vinod\\VS Test Project\\V-18\\Mehndi App\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\Repositories\\Interfaces\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "MehndiAppDotNerCoreWebAPI\\Repositories\\Interfaces\\IUserRepository.cs",
-              "ToolTip": "C:\\Vinod\\VS Test Project\\V-18\\Mehndi App\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\Repositories\\Interfaces\\IUserRepository.cs",
-              "RelativeToolTip": "MehndiAppDotNerCoreWebAPI\\Repositories\\Interfaces\\IUserRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAgAAAA",
+              "Title": "IProfessionalService.cs",
+              "DocumentMoniker": "C:\\Vinod\\VS Test Project\\V-18\\Mehndi App\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\Services\\Interfaces\\IProfessionalService.cs",
+              "RelativeDocumentMoniker": "MehndiAppDotNerCoreWebAPI\\Services\\Interfaces\\IProfessionalService.cs",
+              "ToolTip": "C:\\Vinod\\VS Test Project\\V-18\\Mehndi App\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\Services\\Interfaces\\IProfessionalService.cs",
+              "RelativeToolTip": "MehndiAppDotNerCoreWebAPI\\Services\\Interfaces\\IProfessionalService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T12:29:17.387Z",
+              "WhenOpened": "2024-08-11T07:05:36.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProfessionalLoginRequest.cs",
+              "DocumentMoniker": "C:\\Vinod\\VS Test Project\\V-18\\Mehndi App\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\Models\\ProfessionalLoginRequest.cs",
+              "RelativeDocumentMoniker": "MehndiAppDotNerCoreWebAPI\\Models\\ProfessionalLoginRequest.cs",
+              "ToolTip": "C:\\Vinod\\VS Test Project\\V-18\\Mehndi App\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\Models\\ProfessionalLoginRequest.cs",
+              "RelativeToolTip": "MehndiAppDotNerCoreWebAPI\\Models\\ProfessionalLoginRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAQAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T10:56:01.451Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProfessionalService.cs",
+              "DocumentMoniker": "C:\\Vinod\\VS Test Project\\V-18\\Mehndi App\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\Services\\Implementations\\ProfessionalService.cs",
+              "RelativeDocumentMoniker": "MehndiAppDotNerCoreWebAPI\\Services\\Implementations\\ProfessionalService.cs",
+              "ToolTip": "C:\\Vinod\\VS Test Project\\V-18\\Mehndi App\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\Services\\Implementations\\ProfessionalService.cs",
+              "RelativeToolTip": "MehndiAppDotNerCoreWebAPI\\Services\\Implementations\\ProfessionalService.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAkwBkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T07:06:57.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SqlHelper.cs",
+              "DocumentMoniker": "C:\\Vinod\\VS Test Project\\V-18\\Mehndi App\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\Helpers\\SqlHelper.cs",
+              "RelativeDocumentMoniker": "MehndiAppDotNerCoreWebAPI\\Helpers\\SqlHelper.cs",
+              "ToolTip": "C:\\Vinod\\VS Test Project\\V-18\\Mehndi App\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\Helpers\\SqlHelper.cs",
+              "RelativeToolTip": "MehndiAppDotNerCoreWebAPI\\Helpers\\SqlHelper.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAwwEkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T12:10:35.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Vinod\\VS Test Project\\V-18\\Mehndi App\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "MehndiAppDotNerCoreWebAPI\\Program.cs",
+              "ToolTip": "C:\\Vinod\\VS Test Project\\V-18\\Mehndi App\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\Program.cs",
+              "RelativeToolTip": "MehndiAppDotNerCoreWebAPI\\Program.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T12:17:58.254Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 9,
+              "Title": "IProfessionalRepository.cs",
+              "DocumentMoniker": "C:\\Vinod\\VS Test Project\\V-18\\Mehndi App\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\Repositories\\Interfaces\\IProfessionalRepository.cs",
+              "RelativeDocumentMoniker": "MehndiAppDotNerCoreWebAPI\\Repositories\\Interfaces\\IProfessionalRepository.cs",
+              "ToolTip": "C:\\Vinod\\VS Test Project\\V-18\\Mehndi App\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\Repositories\\Interfaces\\IProfessionalRepository.cs",
+              "RelativeToolTip": "MehndiAppDotNerCoreWebAPI\\Repositories\\Interfaces\\IProfessionalRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T07:08:13.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "C:\\Vinod\\VS Test Project\\V-18\\Mehndi App\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "MehndiAppDotNerCoreWebAPI\\Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\Vinod\\VS Test Project\\V-18\\Mehndi App\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "MehndiAppDotNerCoreWebAPI\\Controllers\\CustomerController.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAwwAoAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T10:43:02.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CustomerService.cs",
+              "DocumentMoniker": "C:\\Vinod\\VS Test Project\\V-18\\Mehndi App\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\Services\\Implementations\\CustomerService.cs",
+              "RelativeDocumentMoniker": "MehndiAppDotNerCoreWebAPI\\Services\\Implementations\\CustomerService.cs",
+              "ToolTip": "C:\\Vinod\\VS Test Project\\V-18\\Mehndi App\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\Services\\Implementations\\CustomerService.cs",
+              "RelativeToolTip": "MehndiAppDotNerCoreWebAPI\\Services\\Implementations\\CustomerService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T10:33:28.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Professional.cs",
+              "DocumentMoniker": "C:\\Vinod\\VS Test Project\\V-18\\Mehndi App\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\Models\\Professional.cs",
+              "RelativeDocumentMoniker": "MehndiAppDotNerCoreWebAPI\\Models\\Professional.cs",
+              "ToolTip": "C:\\Vinod\\VS Test Project\\V-18\\Mehndi App\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\Models\\Professional.cs",
+              "RelativeToolTip": "MehndiAppDotNerCoreWebAPI\\Models\\Professional.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAIAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T07:03:57.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ICustomerRepository.cs",
+              "DocumentMoniker": "C:\\Vinod\\VS Test Project\\V-18\\Mehndi App\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\Repositories\\Interfaces\\ICustomerRepository.cs",
+              "RelativeDocumentMoniker": "MehndiAppDotNerCoreWebAPI\\Repositories\\Interfaces\\ICustomerRepository.cs",
+              "ToolTip": "C:\\Vinod\\VS Test Project\\V-18\\Mehndi App\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\Repositories\\Interfaces\\ICustomerRepository.cs",
+              "RelativeToolTip": "MehndiAppDotNerCoreWebAPI\\Repositories\\Interfaces\\ICustomerRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T09:33:42.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CustomerRepository.cs",
+              "DocumentMoniker": "C:\\Vinod\\VS Test Project\\V-18\\Mehndi App\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\Repositories\\Implementations\\CustomerRepository.cs",
+              "RelativeDocumentMoniker": "MehndiAppDotNerCoreWebAPI\\Repositories\\Implementations\\CustomerRepository.cs",
+              "ToolTip": "C:\\Vinod\\VS Test Project\\V-18\\Mehndi App\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\Repositories\\Implementations\\CustomerRepository.cs",
+              "RelativeToolTip": "MehndiAppDotNerCoreWebAPI\\Repositories\\Implementations\\CustomerRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T10:14:11.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Vinod\\VS Test Project\\V-18\\Mehndi App\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\Models\\User.cs",
               "RelativeDocumentMoniker": "MehndiAppDotNerCoreWebAPI\\Models\\User.cs",
@@ -187,34 +310,116 @@
               "RelativeToolTip": "MehndiAppDotNerCoreWebAPI\\Models\\User.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T12:27:20.135Z",
+              "WhenOpened": "2024-07-27T12:27:20.135Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Vinod\\VS Test Project\\V-18\\Mehndi App\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "MehndiAppDotNerCoreWebAPI\\Models\\Customer.cs",
+              "ToolTip": "C:\\Vinod\\VS Test Project\\V-18\\Mehndi App\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\Models\\Customer.cs",
+              "RelativeToolTip": "MehndiAppDotNerCoreWebAPI\\Models\\Customer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T09:34:39.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Vinod\\VS Test Project\\V-18\\Mehndi App\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\Services\\Implementations\\UserService.cs",
+              "RelativeDocumentMoniker": "MehndiAppDotNerCoreWebAPI\\Services\\Implementations\\UserService.cs",
+              "ToolTip": "C:\\Vinod\\VS Test Project\\V-18\\Mehndi App\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\Services\\Implementations\\UserService.cs",
+              "RelativeToolTip": "MehndiAppDotNerCoreWebAPI\\Services\\Implementations\\UserService.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T12:34:39.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ICustomerService.cs",
+              "DocumentMoniker": "C:\\Vinod\\VS Test Project\\V-18\\Mehndi App\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\Services\\Interfaces\\ICustomerService.cs",
+              "RelativeDocumentMoniker": "MehndiAppDotNerCoreWebAPI\\Services\\Interfaces\\ICustomerService.cs",
+              "ToolTip": "C:\\Vinod\\VS Test Project\\V-18\\Mehndi App\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\Services\\Interfaces\\ICustomerService.cs",
+              "RelativeToolTip": "MehndiAppDotNerCoreWebAPI\\Services\\Interfaces\\ICustomerService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAYAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T10:33:05.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Vinod\\VS Test Project\\V-18\\Mehndi App\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "MehndiAppDotNerCoreWebAPI\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Vinod\\VS Test Project\\V-18\\Mehndi App\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\Controllers\\UserController.cs",
+              "RelativeToolTip": "MehndiAppDotNerCoreWebAPI\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T12:32:07.644Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "MehndiAppDotNerCoreWebAPI",
+              "DocumentIndex": 21,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Vinod\\VS Test Project\\V-18\\Mehndi App\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\Repositories\\Implementations\\UserRepository.cs",
+              "RelativeDocumentMoniker": "MehndiAppDotNerCoreWebAPI\\Repositories\\Implementations\\UserRepository.cs",
+              "ToolTip": "C:\\Vinod\\VS Test Project\\V-18\\Mehndi App\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\Repositories\\Implementations\\UserRepository.cs",
+              "RelativeToolTip": "MehndiAppDotNerCoreWebAPI\\Repositories\\Implementations\\UserRepository.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAIBJwAkAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T12:30:12.546Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Vinod\\VS Test Project\\V-18\\Mehndi App\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\Services\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "MehndiAppDotNerCoreWebAPI\\Services\\Interfaces\\IUserService.cs",
+              "ToolTip": "C:\\Vinod\\VS Test Project\\V-18\\Mehndi App\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\Services\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "MehndiAppDotNerCoreWebAPI\\Services\\Interfaces\\IUserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T12:34:17.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Vinod\\VS Test Project\\V-18\\Mehndi App\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\Repositories\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "MehndiAppDotNerCoreWebAPI\\Repositories\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "C:\\Vinod\\VS Test Project\\V-18\\Mehndi App\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\Repositories\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "MehndiAppDotNerCoreWebAPI\\Repositories\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T12:29:17.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "MyDbContext.cs",
+              "DocumentMoniker": "C:\\Vinod\\VS Test Project\\V-18\\Mehndi App\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\Data\\MyDbContext.cs",
+              "RelativeDocumentMoniker": "MehndiAppDotNerCoreWebAPI\\Data\\MyDbContext.cs",
+              "ToolTip": "C:\\Vinod\\VS Test Project\\V-18\\Mehndi App\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\Data\\MyDbContext.cs",
+              "RelativeToolTip": "MehndiAppDotNerCoreWebAPI\\Data\\MyDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T12:40:27.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "MehndiAppDotNerCoreWebAPI.csproj",
               "DocumentMoniker": "C:\\Vinod\\VS Test Project\\V-18\\Mehndi App\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI.csproj",
               "RelativeDocumentMoniker": "MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI.csproj",
               "ToolTip": "C:\\Vinod\\VS Test Project\\V-18\\Mehndi App\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI.csproj",
               "RelativeToolTip": "MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-07-27T12:14:36.371Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "SqlHelper.cs",
-              "DocumentMoniker": "C:\\Vinod\\VS Test Project\\V-18\\Mehndi App\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\Helpers\\SqlHelper.cs",
-              "RelativeDocumentMoniker": "MehndiAppDotNerCoreWebAPI\\Helpers\\SqlHelper.cs",
-              "ToolTip": "C:\\Vinod\\VS Test Project\\V-18\\Mehndi App\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\MehndiAppDotNerCoreWebAPI\\Helpers\\SqlHelper.cs",
-              "RelativeToolTip": "MehndiAppDotNerCoreWebAPI\\Helpers\\SqlHelper.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T12:10:35.299Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-27T12:14:36.371Z"
             }
           ]
         }
