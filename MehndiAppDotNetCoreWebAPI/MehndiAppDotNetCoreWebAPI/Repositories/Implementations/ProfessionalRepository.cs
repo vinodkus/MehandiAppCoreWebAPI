@@ -3,6 +3,7 @@ using MehndiAppDotNerCoreWebAPI.Models;
 using MehndiAppDotNerCoreWebAPI.Repositories.Interfaces;
 using Microsoft.Data.SqlClient;
 using Newtonsoft.Json;
+using System.Data;
 
 namespace MehndiAppDotNerCoreWebAPI.Repositories.Implementations
 {
@@ -42,7 +43,7 @@ namespace MehndiAppDotNerCoreWebAPI.Repositories.Implementations
             }
         }
 
-        public async Task<object> LoginProfessional(LoginProfessionalRequest loginProfessionalRequest)
+        public async Task<SqlDataReader> LoginProfessional(LoginProfessionalRequest loginProfessionalRequest)
         {
             // Convert the customer object to JSON
             var loginJson = JsonConvert.SerializeObject(loginProfessionalRequest);
@@ -59,7 +60,7 @@ namespace MehndiAppDotNerCoreWebAPI.Repositories.Implementations
             try
             {
                 // Execute the stored procedure
-                var result= await _sqlHelper.ExecuteScalarAsync(procedureName, parameters);
+                var result= await _sqlHelper.ExecuteReaderAsync(procedureName, parameters);                
                 return result;
             }
             catch (SqlException ex)

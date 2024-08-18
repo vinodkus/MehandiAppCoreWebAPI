@@ -38,7 +38,7 @@ namespace MehndiAppDotNerCoreWebAPI.Helpers
             }
         }
 
-        public async Task< int> ExecuteNonQuery(string query, SqlParameter[] parameters = null)
+        public async Task<int> ExecuteNonQuery(string query, SqlParameter[] parameters = null)
         {
             using (var connection = GetConnection())
             {
@@ -70,6 +70,32 @@ namespace MehndiAppDotNerCoreWebAPI.Helpers
                     var result = await command.ExecuteScalarAsync();
                     return result ?? throw new InvalidOperationException("ExecuteScalarAsync returned null.");
                 }
+            }
+        }
+
+        public async Task<SqlDataReader> ExecuteReaderAsync(string procedureName, SqlParameter[] parameters)
+        {
+            SqlConnection connection = new SqlConnection(_connectionString);
+            SqlCommand command = new SqlCommand(procedureName, connection);
+            command.CommandType = CommandType.StoredProcedure;
+
+            if (parameters != null)
+            {
+                command.Parameters.AddRange(parameters);
+            }
+
+            try
+            {
+                await connection.OpenAsync();
+                // Execute the command and return the SqlDataReader
+                SqlDataReader reader = await command.ExecuteReaderAsync(CommandBehavior.CloseConnection);
+                return reader;
+            }
+            catch (SqlException ex)
+            {
+                // Log or handle the error as needed
+                Console.WriteLine("SQL Error: " + ex.Message);
+                throw;
             }
         }
 

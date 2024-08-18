@@ -50,7 +50,7 @@ builder.Services.AddScoped<IProfessionalService, ProfessionalService>();
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowSpecificOrigin", builder =>
-        builder.WithOrigins("http://localhost:4200")
+        builder.WithOrigins("http://localhost:4200", "http://test.sanatini.com")
                .AllowAnyHeader()
                .AllowAnyMethod());
 });
@@ -59,6 +59,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
+
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

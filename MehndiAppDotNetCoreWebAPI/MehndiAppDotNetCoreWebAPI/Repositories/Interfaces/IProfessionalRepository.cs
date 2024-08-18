@@ -1,11 +1,13 @@
 ﻿using MehndiAppDotNerCoreWebAPI.Models;
+using Microsoft.Data.SqlClient;
+using System.Data;
 
 namespace MehndiAppDotNerCoreWebAPI.Repositories.Interfaces
 {
     public interface IProfessionalRepository
     {
         Task<int> SignupProfessional(Professional professional);
-        Task<object> LoginProfessional(LoginProfessionalRequest LoginProfessionalRequest);
+        Task<SqlDataReader> LoginProfessional(LoginProfessionalRequest LoginProfessionalRequest);
 
 
 

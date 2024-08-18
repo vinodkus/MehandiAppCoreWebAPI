@@ -1,6 +1,8 @@
 ﻿using MehndiAppDotNerCoreWebAPI.Models;
 using MehndiAppDotNerCoreWebAPI.Repositories.Interfaces;
 using MehndiAppDotNerCoreWebAPI.Services.Interfaces;
+using Microsoft.Data.SqlClient;
+using System.Data;
 
 namespace MehndiAppDotNerCoreWebAPI.Services.Implementations
 {
@@ -18,7 +20,7 @@ namespace MehndiAppDotNerCoreWebAPI.Services.Implementations
             return await _professionalRepository.SignupProfessional(professional);
         }
 
-        public async Task<object> LoginProfessional(LoginProfessionalRequest LoginProfessionalRequest)
+        public async Task<SqlDataReader> LoginProfessional(LoginProfessionalRequest LoginProfessionalRequest)
         {
             return await _professionalRepository.LoginProfessional(LoginProfessionalRequest); ;
         }

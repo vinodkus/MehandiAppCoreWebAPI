@@ -2,6 +2,8 @@
 using MehndiAppDotNerCoreWebAPI.Models;
 using MehndiAppDotNerCoreWebAPI.Services.Implementations;
 using MehndiAppDotNerCoreWebAPI.Services.Interfaces;
+using MehndiAppDotNetCoreWebAPI.Models;
+using MehndiAppDotNetCoreWebAPI.Response;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.SqlClient;
@@ -55,25 +57,41 @@ namespace MehndiAppDotNerCoreWebAPI.Controllers
 
             try
             {
-                var result= await _professionalService.LoginProfessional(loginRequest);
-                
-                if(result.ToString() == "Login successful")
+                var result = await _professionalService.LoginProfessional(loginRequest);
+
+                //if (result is ProfessionalDetails professionalDetails)
+                if (result.HasRows)
                 {
+                    LoginResponse loginResponse = new LoginResponse();
+                    Professional professional = new Professional();
+                    while(result.Read())
+                    {
+                        loginResponse.Message = "Professional Login Successfull";
+                        professional.FullName= Convert.ToString(result["FullName"]) ?? "";
+                        professional.Email = Convert.ToString(result["Email"]) ?? "";
+                        professional.PhoneNumber = Convert.ToString(result["PhoneNumber"]) ?? "";
+                        professional.Address = Convert.ToString(result["Address"]) ?? "";
+                        loginResponse.ProfessionalDetails = professional;
+                    }
                     var token = GenerateJwtToken(loginRequest.Email);
-                    return Ok(new { Token = token });
+
+                    return Ok(new
+                    {
+                        Token = token,
+                        LoginResponse = loginResponse
+                    });
                 }
                 else
-                    return StatusCode(500, new { message = $"{"Invalid credentials."}" });
-                //return Unauthorized("Invalid credentials.");
+                {
+                    return Unauthorized(new { message = "Invalid credentials." });
+                }
             }
             catch (Exception ex)
             {
-                // Log the error if necessary
                 return StatusCode(500, new { message = $"{ex.Message}" });
-                //return StatusCode(500, $"Internal server error: {ex.Message}");                
-
             }
         }
+
 
         private string GenerateJwtToken(string email)
         {   var jwtKey = _configuration["Jwt:Key"]?? throw new InvalidOperationException("JWT Key not found in configuration.");
