@@ -38,7 +38,7 @@ namespace MehndiAppDotNerCoreWebAPI.Helpers
             }
         }
 
-        public async Task<int> ExecuteNonQuery(string query, SqlParameter[] parameters = null)
+        public async Task<int> ExecuteNonQueryAsync(string query, SqlParameter[] parameters = null)
         {
             using (var connection = GetConnection())
             {

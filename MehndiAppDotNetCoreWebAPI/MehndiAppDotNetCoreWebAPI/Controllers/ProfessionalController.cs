@@ -114,5 +114,25 @@ namespace MehndiAppDotNerCoreWebAPI.Controllers
 
             return new JwtSecurityTokenHandler().WriteToken(token);
         }
+
+        [HttpPost("add-mehndi-design")]
+        public async Task<IActionResult> AddMehndiDesign([FromForm] MehndiDesignRequest designRequest)
+        {
+            if (designRequest == null)
+            {
+                return BadRequest("Design data is required.");
+            }
+
+            try
+            {
+                var designID = await _professionalService.AddMehndiDesign(designRequest);
+                return Ok(new { DesignID = designID, message = "Mehndi design added successfully." });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { message = $"Internal server error: {ex.Message}" });
+            }
+        }
+
     }
 }

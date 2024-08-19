@@ -32,7 +32,7 @@ namespace MehndiAppDotNerCoreWebAPI.Repositories.Implementations
             try
             {
                 // Execute the stored procedure
-                int x = await _sqlHelper.ExecuteNonQuery(procedureName, parameters);
+                int x = await _sqlHelper.ExecuteNonQueryAsync(procedureName, parameters);
                 return x;
             }
             catch (SqlException ex)
