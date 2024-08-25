@@ -4,6 +4,10 @@ using MehndiAppDotNerCoreWebAPI.Repositories.Implementations;
 using MehndiAppDotNerCoreWebAPI.Repositories.Interfaces;
 using MehndiAppDotNerCoreWebAPI.Services.Implementations;
 using MehndiAppDotNerCoreWebAPI.Services.Interfaces;
+using MehndiAppDotNetCoreWebAPI.Repositories.Implementations;
+using MehndiAppDotNetCoreWebAPI.Repositories.Interfaces;
+using MehndiAppDotNetCoreWebAPI.Services.Implementations;
+using MehndiAppDotNetCoreWebAPI.Services.Interfaces;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
@@ -45,6 +49,8 @@ builder.Services.AddScoped<ICustomerRepository, CustomerRepository>();
 builder.Services.AddScoped<ICustomerService, CustomerService>();
 builder.Services.AddScoped<IProfessionalRepository, ProfessionalRepository>();
 builder.Services.AddScoped<IProfessionalService, ProfessionalService>();
+builder.Services.AddScoped<IMehndiRepository,MehndiRepository>();
+builder.Services.AddScoped<IMehndiService, MehndiService>();
 
 
 builder.Services.AddCors(options =>

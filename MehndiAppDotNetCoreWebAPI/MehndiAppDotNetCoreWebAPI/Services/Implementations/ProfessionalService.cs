@@ -26,10 +26,6 @@ namespace MehndiAppDotNerCoreWebAPI.Services.Implementations
             return await _professionalRepository.LoginProfessional(LoginProfessionalRequest); 
         }
 
-        public async Task<int> AddMehndiDesign(MehndiDesignRequest designRequest)
-        {
-            return await _professionalRepository.AddMehndiDesign(designRequest);
-
-        }
+       
     }
 }

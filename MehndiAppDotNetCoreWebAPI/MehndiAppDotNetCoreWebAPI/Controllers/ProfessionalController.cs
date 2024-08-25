@@ -21,7 +21,7 @@ namespace MehndiAppDotNerCoreWebAPI.Controllers
     public class ProfessionalController : ControllerBase
     {
         private readonly IProfessionalService _professionalService;
-        private readonly IConfiguration _configuration;
+        private readonly IConfiguration _configuration; 
         public ProfessionalController(IProfessionalService professionalService, IConfiguration configuration)
         {
             _professionalService = professionalService;
@@ -115,24 +115,24 @@ namespace MehndiAppDotNerCoreWebAPI.Controllers
             return new JwtSecurityTokenHandler().WriteToken(token);
         }
 
-        [HttpPost("add-mehndi-design")]
-        public async Task<IActionResult> AddMehndiDesign([FromForm] MehndiDesignRequest designRequest)
-        {
-            if (designRequest == null)
-            {
-                return BadRequest("Design data is required.");
-            }
+        //[HttpPost("AddMehndiDesign")]
+        //public async Task<IActionResult> AddMehndiDesign([FromForm] MehndiDesignRequest designRequest)
+        //{
+        //    if (designRequest == null)
+        //    {
+        //        return BadRequest("Design data is required.");
+        //    }
 
-            try
-            {
-                var designID = await _professionalService.AddMehndiDesign(designRequest);
-                return Ok(new { DesignID = designID, message = "Mehndi design added successfully." });
-            }
-            catch (Exception ex)
-            {
-                return StatusCode(500, new { message = $"Internal server error: {ex.Message}" });
-            }
-        }
+        //    try
+        //    {
+        //        var designID = await _professionalService.AddMehndiDesign(designRequest);
+        //        return Ok(new { DesignID = designID, message = "Mehndi design added successfully." });
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return StatusCode(500, new { message = $"Internal server error: {ex.Message}" });
+        //    }
+        //}
 
     }
 }
