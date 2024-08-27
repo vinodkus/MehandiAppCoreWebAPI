@@ -68,9 +68,12 @@ namespace MehndiAppDotNerCoreWebAPI.Controllers
                     {
                         loginResponse.Message = "Professional Login Successfull";
                         professional.FullName= Convert.ToString(result["FullName"]) ?? "";
+                        professional.ProfessionalID = Convert.ToDecimal(result["ProfessionalID"]);
                         professional.Email = Convert.ToString(result["Email"]) ?? "";
                         professional.PhoneNumber = Convert.ToString(result["PhoneNumber"]) ?? "";
                         professional.Address = Convert.ToString(result["Address"]) ?? "";
+                        professional.ExperienceYears = Convert.ToInt32(result["ExperienceYears"]);
+                        professional.Specialization = Convert.ToString(result["Specialization"]) ?? "";
                         loginResponse.ProfessionalDetails = professional;
                     }
                     var token = GenerateJwtToken(loginRequest.Email);
