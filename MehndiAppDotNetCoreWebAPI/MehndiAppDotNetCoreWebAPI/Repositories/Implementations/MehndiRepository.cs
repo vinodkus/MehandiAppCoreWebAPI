@@ -1,8 +1,13 @@
 ﻿using MehndiAppDotNerCoreWebAPI.Helpers;
+using MehndiAppDotNerCoreWebAPI.Models;
 using MehndiAppDotNetCoreWebAPI.Models;
 using MehndiAppDotNetCoreWebAPI.Repositories.Interfaces;
+using MehndiAppDotNetCoreWebAPI.Services.Implementations;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.SqlClient;
 using Newtonsoft.Json;
+using System.Data;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
 namespace MehndiAppDotNetCoreWebAPI.Repositories.Implementations
 {
@@ -17,15 +22,8 @@ namespace MehndiAppDotNetCoreWebAPI.Repositories.Implementations
         }
         public async Task<int> AddMehndiDesign(MehndiDesignRequest designRequest)
         {
-            // Convert to JSON
-            var designJson = JsonConvert.SerializeObject(new
-            {
-                designRequest.ProfessionalID,
-                designRequest.DesignName,
-                designRequest.DesignDescription,
-                designRequest.Mode,
-                ImagePath = "" // We'll update this after uploading the image
-            });
+            // Convert to JSON            
+            var designJson = JsonConvert.SerializeObject(designRequest);
 
             // Define the stored procedure name
             string procedureName = "MH_AddMehndiDesign";
@@ -35,49 +33,15 @@ namespace MehndiAppDotNetCoreWebAPI.Repositories.Implementations
             {
                 new SqlParameter("@InputJson", designJson)
             };
-
             try
             {
                 // Execute the stored procedure and get the DesignID
                 var result = await _sqlHelper.ExecuteScalarAsync(procedureName, parameters);
-                int designID = Convert.ToInt32(result); // Explicitly cast to int
-
-                // Upload image to a folder
-                if (designRequest.Image != null && designRequest.Image.Length > 0)
+                if (result != null)
                 {
-                    var imagePath = Path.Combine("Uploads", "MehndiDesigns", $"{designID}.jpg");
-                    using (var stream = new FileStream(imagePath, FileMode.Create))
-                    {
-                        await designRequest.Image.CopyToAsync(stream);
-                    }
-
-                    // Update the ImagePath in the database
-                    string updateProcedure = "MH_AddMehndiDesign";
-                    designRequest.Mode = 2;
-                    designRequest.DesignID = designID;
-                    designJson = JsonConvert.SerializeObject(new
-                    {
-                        designRequest.DesignID,
-                        designRequest.ProfessionalID,
-                        designRequest.DesignName,
-                        designRequest.DesignDescription,
-                        designRequest.Mode,
-                        ImagePath = imagePath // We'll update this after uploading the image
-                    });
-                    var updateParameters = new SqlParameter[]
-                    {
-                        new SqlParameter("@InputJson", designJson)
-                    };
-                    //var updateParameters = new SqlParameter[]
-                    //{
-                    //    new SqlParameter("@ImagePath", imagePath),
-                    //    new SqlParameter("@DesignID", designID),
-                    //    new SqlParameter("@Mode", 2)
-                    //};
-                    await _sqlHelper.ExecuteNonQueryAsync(updateProcedure, updateParameters);
+                    return 1;
                 }
-
-                return designID;
+                return 0;
             }
             catch (SqlException ex)
             {
@@ -85,6 +49,170 @@ namespace MehndiAppDotNetCoreWebAPI.Repositories.Implementations
                 throw;
             }
         }
+
+        // Mehndi Service Methods
+        public async Task<int> AddService(MhService serviceRequest)
+        {
+            var serviceJson = JsonConvert.SerializeObject(serviceRequest);
+            string procedureName = "MH_AddService";
+
+            SqlParameter[] parameters = {
+            new SqlParameter("@InputJson", serviceJson)
+        };
+
+            var result = await _sqlHelper.ExecuteScalarAsync(procedureName, parameters);
+            return Convert.ToInt32(result);
+        }
+
+       
+
+        public async Task<int> DeleteDesign(int designId)
+        {
+            MehndiDesignRequest designRequest=new MehndiDesignRequest();
+            designRequest.DesignID= designId;
+            // Convert to JSON            
+            var designJson = JsonConvert.SerializeObject(designRequest);
+            // Define the stored procedure name
+            string procedureName = "MH_DeleteMehndiDesign";
+            // Create SQL parameters
+            var parameters = new SqlParameter[]
+            {
+                new SqlParameter("@InputJson", designJson)
+            };
+            try
+            {
+                // Execute the stored procedure and get the DesignID
+                var result = await _sqlHelper.ExecuteNonQueryAsync(procedureName, parameters);
+                if (result != null)
+                {
+                    return 1;
+                }
+                return 0;
+            }
+            catch (SqlException ex)
+            {
+                HandleError(ex, designJson);
+                throw;
+            }
+        }
+
+        public async Task<bool> DeleteService(int serviceID)
+        {
+            string procedureName = "MH_DeleteService";
+
+            SqlParameter[] parameters = {
+            new SqlParameter("@ServiceID", serviceID)
+            };
+
+            var result = await _sqlHelper.ExecuteScalarAsync(procedureName, parameters);
+
+            // Convert the result to a boolean (1 -> true, 0 -> false)
+            return Convert.ToInt32(result) == 1;
+        }
+
+
+        public async Task<IEnumerable<MehndiDesign>> GetDesigns(int professionalID)
+        {
+            MehndiDesignRequest mehndiDesignRequest = new MehndiDesignRequest();
+            mehndiDesignRequest.ProfessionalID = Convert.ToInt32( professionalID);
+
+            // Convert to JSON            
+            var designJson = JsonConvert.SerializeObject(mehndiDesignRequest);
+
+            // Define the stored procedure name
+            string procedureName = "MH_ShowMehndiDesign";
+
+            // Create SQL parameters
+            var parameters = new SqlParameter[]
+            {
+                new SqlParameter("@InputJson", designJson)
+            };
+            //var designs = await _sqlHelper.ExecuteReaderAsync<MehndiDesign>(procedureName, parameters);
+            //return designs;
+            try
+            {
+                var designs = await _sqlHelper.ExecuteReaderAsync<MehndiDesign>(procedureName, parameters);
+                return designs;
+            }
+            catch (Exception ex)
+            {
+                // HandleError(ex, designJson);
+                Console.WriteLine("Error: " + ex.Message);
+                throw;
+            }
+        }
+
+        //public async Task<IEnumerable<MehndiService>> GetServices(int professionalID)
+        //{
+        //    string procedureName = "MH_GetServices";
+
+        //    SqlParameter[] parameters = {
+        //        new SqlParameter("@ProfessionalID", professionalID)
+        //    };
+
+        //    return await _sqlHelper.ExecuteReaderAsync<MehndiService>(procedureName, parameters);
+        //}
+        public async Task<IEnumerable<MhService>> GetServices(int professionalID)
+        {
+            MehndiServiceRequest request = new MehndiServiceRequest
+            {
+                ProfessionalID = professionalID
+            };
+            var serviceJson = JsonConvert.SerializeObject(request);
+            string procedureName = "MH_GetServices";
+
+            SqlParameter[] parameters = {
+            new SqlParameter("@InputJson", serviceJson)
+            };
+
+            return await _sqlHelper.ExecuteReaderAsync<MhService>(procedureName, parameters);
+        }
+
+        public async Task<int> UpdateMehndiDesign(MehndiDesignRequest designRequest)
+        {
+
+            // Convert to JSON            
+            var designJson = JsonConvert.SerializeObject(designRequest);
+
+            // Define the stored procedure name
+            string procedureName = "MH_AddMehndiDesign";
+
+            // Create SQL parameters
+            var parameters = new SqlParameter[]
+            {
+                new SqlParameter("@InputJson", designJson)
+            };
+            try
+            {
+                // Execute the stored procedure and get the DesignID
+                var result = await _sqlHelper.ExecuteScalarAsync(procedureName, parameters);
+                if (result != null)
+                {
+                    return 1;
+                }
+                return 0;
+            }
+            catch (SqlException ex)
+            {
+                HandleError(ex, designJson);
+                throw;
+            }
+        }
+
+        public async Task<int> UpdateService(MhService serviceRequest)
+        {
+            var serviceJson = JsonConvert.SerializeObject(serviceRequest);
+            string procedureName = "MH_UpdateService";
+
+            SqlParameter[] parameters = {
+            new SqlParameter("@InputJson", serviceJson)
+            };
+
+            var result = await _sqlHelper.ExecuteScalarAsync(procedureName, parameters);
+            return Convert.ToInt32(result);  // Expecting an integer result from the stored procedure
+        }
+
+
         private void HandleError(SqlException ex, string inputJson)
         {
             // You can add logic here to log the error details into another table or to a file

@@ -99,5 +99,45 @@ namespace MehndiAppDotNerCoreWebAPI.Helpers
             }
         }
 
+        public async Task<IEnumerable<T>> ExecuteReaderAsync<T>(string query, SqlParameter[] parameters = null)
+        {
+            var resultList = new List<T>();
+
+            using (var connection = GetConnection())
+            {
+                using (var command = new SqlCommand(query, connection))
+                {
+                    //command.CommandType = CommandType.Text;
+                    command.CommandType = CommandType.StoredProcedure;
+
+                    if (parameters != null)
+                    {
+                        command.Parameters.AddRange(parameters);
+                    }
+
+                    await connection.OpenAsync();
+                    using (
+                        var reader = await command.ExecuteReaderAsync())
+                    {
+                        while (await reader.ReadAsync())
+                        {
+                            var obj = Activator.CreateInstance<T>();
+                            foreach (var prop in typeof(T).GetProperties())
+                            {
+                                if (!Equals(reader[prop.Name], DBNull.Value))
+                                {
+                                    prop.SetValue(obj, reader[prop.Name], null);
+                                }
+                            }
+                            resultList.Add(obj);
+                        }
+                    }
+                }
+            }
+
+            return resultList;
+        }
+
+
     }
 }

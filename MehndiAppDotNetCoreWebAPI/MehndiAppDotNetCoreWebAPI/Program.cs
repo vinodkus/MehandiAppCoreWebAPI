@@ -10,6 +10,7 @@ using MehndiAppDotNetCoreWebAPI.Services.Implementations;
 using MehndiAppDotNetCoreWebAPI.Services.Interfaces;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.FileProviders;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 
@@ -51,6 +52,8 @@ builder.Services.AddScoped<IProfessionalRepository, ProfessionalRepository>();
 builder.Services.AddScoped<IProfessionalService, ProfessionalService>();
 builder.Services.AddScoped<IMehndiRepository,MehndiRepository>();
 builder.Services.AddScoped<IMehndiService, MehndiService>();
+builder.Services.AddScoped<IFileService, FileService>();
+
 
 
 builder.Services.AddCors(options =>
@@ -65,6 +68,12 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
+app.UseStaticFiles(new StaticFileOptions
+{
+    FileProvider = new PhysicalFileProvider(Path.Combine(Directory.GetCurrentDirectory(), "Uploads")),
+   // RequestPath = "/Resources"
+     RequestPath = "/Uploads"
+});
 
 
 // Configure the HTTP request pipeline.

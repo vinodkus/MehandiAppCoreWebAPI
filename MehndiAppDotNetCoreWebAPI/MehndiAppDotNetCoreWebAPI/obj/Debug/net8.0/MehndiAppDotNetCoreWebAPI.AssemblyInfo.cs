@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MehndiAppDotNetCoreWebAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e91d1697fd80899d5414fd03164d630df5ec40f3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d71aa4a757f1050c642b462a3ab8dd878a8bfeec")]
 [assembly: System.Reflection.AssemblyProductAttribute("MehndiAppDotNetCoreWebAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MehndiAppDotNetCoreWebAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -7,7 +7,10 @@
         public string DesignName { get; set; } = "";
         public string DesignDescription { get; set; } = "";
         public int Mode { get; set; }
-        public IFormFile? Image { get; set; }
+        public IFormFile? ImageFile { get; set; }
+        public string? DesignImageName { get; set; } = "";
+      //  public string ImagePath { get; set; } = "";
+
     }
 
 }
