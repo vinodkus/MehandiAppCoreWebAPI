@@ -41,10 +41,15 @@ namespace MehndiAppDotNetCoreWebAPI.Services.Implementations
             // Call to the repository to update the service
             return await _mehndiRepository.UpdateService(serviceRequest);
         }
-        public async Task<bool> DeleteService(int serviceID)
+        //public async Task<bool> DeleteService(int serviceID)
+        //{
+        //    // Call to the repository to delete a service
+        //    return await _mehndiRepository.DeleteService(serviceID);
+        //}
+        public async Task<int> DeleteService(MhService serviceRequest)
         {
-            // Call to the repository to delete a service
-            return await _mehndiRepository.DeleteService(serviceID);
+            // Call to the repository to update the service
+            return await _mehndiRepository.DeleteService(serviceRequest);
         }
 
         public async Task<IEnumerable<MhService>> GetServices(int professionalID)

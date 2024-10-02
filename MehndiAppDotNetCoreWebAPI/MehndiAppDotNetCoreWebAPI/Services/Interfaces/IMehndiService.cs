@@ -14,8 +14,10 @@ namespace MehndiAppDotNetCoreWebAPI.Services.Interfaces
         // Mehndi Service Methods
         Task<int> AddService(MhService serviceRequest);
         Task<int> UpdateService(MhService serviceRequest);
-        Task<bool> DeleteService(int serviceID);
+        //Task<bool> DeleteService(int serviceID);
         Task<IEnumerable<MhService>> GetServices(int professionalID);
+        Task<int> DeleteService(MhService serviceRequest);
+
 
     }
 }

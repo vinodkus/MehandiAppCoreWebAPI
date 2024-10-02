@@ -66,7 +66,8 @@ builder.Services.AddCors(options =>
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-
+// Enable authorization for the API
+builder.Services.AddAuthorization();
 var app = builder.Build();
 app.UseStaticFiles(new StaticFileOptions
 {

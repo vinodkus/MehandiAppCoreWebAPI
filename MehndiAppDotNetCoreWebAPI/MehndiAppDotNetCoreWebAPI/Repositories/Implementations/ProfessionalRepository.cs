@@ -71,9 +71,6 @@ namespace MehndiAppDotNerCoreWebAPI.Repositories.Implementations
                 throw;
             }
         }
-        
-
-
         private void HandleError(SqlException ex, string inputJson)
         {
             // You can add logic here to log the error details into another table or to a file

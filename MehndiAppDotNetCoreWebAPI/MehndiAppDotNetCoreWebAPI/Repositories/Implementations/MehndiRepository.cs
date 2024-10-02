@@ -54,7 +54,8 @@ namespace MehndiAppDotNetCoreWebAPI.Repositories.Implementations
         public async Task<int> AddService(MhService serviceRequest)
         {
             var serviceJson = JsonConvert.SerializeObject(serviceRequest);
-            string procedureName = "MH_AddService";
+            //string procedureName = "MH_AddService";
+            string procedureName = "MH_CUDService";            
 
             SqlParameter[] parameters = {
             new SqlParameter("@InputJson", serviceJson)
@@ -96,20 +97,34 @@ namespace MehndiAppDotNetCoreWebAPI.Repositories.Implementations
             }
         }
 
-        public async Task<bool> DeleteService(int serviceID)
+        //public async Task<bool> DeleteService(int serviceID)
+        //{
+        //    string procedureName = "MH_DeleteService";
+
+        //    SqlParameter[] parameters = {
+        //    new SqlParameter("@ServiceID", serviceID)
+        //    };
+
+        //    var result = await _sqlHelper.ExecuteScalarAsync(procedureName, parameters);
+
+        //    // Convert the result to a boolean (1 -> true, 0 -> false)
+        //    return Convert.ToInt32(result) == 1;
+        //}
+        public async Task<int> DeleteService(MhService serviceRequest)
         {
-            string procedureName = "MH_DeleteService";
+            var serviceJson = JsonConvert.SerializeObject(serviceRequest);
+            //string procedureName = "MH_DeleteService";
+            string procedureName = "MH_CUDService";
+
+            
 
             SqlParameter[] parameters = {
-            new SqlParameter("@ServiceID", serviceID)
+            new SqlParameter("@InputJson", serviceJson)
             };
 
             var result = await _sqlHelper.ExecuteScalarAsync(procedureName, parameters);
-
-            // Convert the result to a boolean (1 -> true, 0 -> false)
-            return Convert.ToInt32(result) == 1;
+            return Convert.ToInt32(result);  // Expecting an integer result from the stored procedure
         }
-
 
         public async Task<IEnumerable<MehndiDesign>> GetDesigns(int professionalID)
         {
@@ -202,7 +217,10 @@ namespace MehndiAppDotNetCoreWebAPI.Repositories.Implementations
         public async Task<int> UpdateService(MhService serviceRequest)
         {
             var serviceJson = JsonConvert.SerializeObject(serviceRequest);
-            string procedureName = "MH_UpdateService";
+            //string procedureName = "MH_UpdateService";
+            string procedureName = "MH_CUDService";
+
+            
 
             SqlParameter[] parameters = {
             new SqlParameter("@InputJson", serviceJson)

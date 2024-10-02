@@ -4,6 +4,7 @@ using MehndiAppDotNetCoreWebAPI.Models;
 using MehndiAppDotNetCoreWebAPI.Models.DTO;
 using MehndiAppDotNetCoreWebAPI.Repositories.Interfaces;
 using MehndiAppDotNetCoreWebAPI.Services.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -11,6 +12,8 @@ namespace MehndiAppDotNetCoreWebAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
+
     public class MehndiController : ControllerBase
     {
         private readonly IMehndiService _mehndiService;
@@ -133,7 +136,7 @@ namespace MehndiAppDotNetCoreWebAPI.Controllers
 
             if (designId<=0)
             {
-                return BadRequest("Invalid design ID.");
+                return BadRequest("Invalid design ID..");
             }
             try
             {
@@ -160,6 +163,7 @@ namespace MehndiAppDotNetCoreWebAPI.Controllers
         }
 
         [HttpGet("GetServices")]
+        [AllowAnonymous]
         public async Task<IActionResult> GetServices(int professionalID)
         {
 
@@ -188,18 +192,19 @@ namespace MehndiAppDotNetCoreWebAPI.Controllers
 
         }
 
-        [HttpPut("UpdateService")]
+        [HttpPost("UpdateService")]
         public async Task<IActionResult> UpdateService([FromBody] MhService serviceRequest)
         {
             var result = await _mehndiService.UpdateService(serviceRequest);
             return Ok(new { message = result > 0 ? "Service updated successfully" : "Failed to update service" });
         }
 
-        [HttpDelete("DeleteService")]
-        public async Task<IActionResult> DeleteService(int serviceID)
+        [HttpPost("DeleteService")]
+     
+        public async Task<IActionResult> DeleteService([FromBody] MhService serviceRequest)
         {
-            var result = await _mehndiService.DeleteService(serviceID);
-            return Ok(new { message = result ? "Service deleted successfully" : "Failed to delete service" });
+            var result = await _mehndiService.DeleteService(serviceRequest);
+            return Ok(new { message = result > 0 ? "Service deleted successfully" : "Failed to delete service" });
         }
     }
 }
